@@ -1,0 +1,28 @@
+# 开发规约
+# 当前为项目根目录
+root = true
+
+# 所有文件使用unix字符
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# 字符编码
+[*.{js,css,html}]
+charset = utf-8
+
+# 缩进规范
+[*.js]
+indent_style = space
+indent_size = 4
+
+[Makefile]
+indent_style = tab
+
+[lib/**.js]
+indent_style = space
+indent_size = 2
+
+# 删除无效空白
+[*]
+trim_trailing_whitespace = true

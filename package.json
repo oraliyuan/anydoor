@@ -1,0 +1,24 @@
+{
+    "name": "frist",
+    "version": "0.0.1",
+    "eslintConfig": {
+        "env": {
+            "browser": true,
+            "node": true
+        }
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.15.0",
+        "eslint-plugin-react": "^7.12.4",
+        "pre-commit": "^1.2.2"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "fix": "eslint --fix ."
+    },
+    "pre-commit": [
+        "lint",
+        "fix"
+    ]
+}
